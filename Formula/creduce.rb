@@ -1,8 +1,8 @@
 require 'formula'
 
-class CReduce < Formula
+class Creduce < Formula
   homepage 'http://embed.cs.utah.edu/creduce/'
-  head 'https://github.com/csmith-project/creduce.git',
+  head 'https://github.com/rgov/creduce.git',
     :branch => 'llvm-svn-compatible'
   
   # Additional requirements flex and indent should already be available on OS X

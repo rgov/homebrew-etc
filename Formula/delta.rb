@@ -38,7 +38,7 @@ class Delta < Formula
   homepage 'http://delta.tigris.org/'
   url 'http://delta.tigris.org/files/documents/3103/33566/delta-2006.08.03.tar.gz',
     :using => CurlWithCookiesDownloadStrategy
-  sha1 'e5ab4933bdbcddac3ba96d6ec497213b42f9f26e'
+  sha256 '38184847a92b01b099bf927dbe66ef88fcfbe7d346a7304eeaad0977cb809ca0'
   
   head 'http://delta.tigris.org/svn/delta/trunk',
     :using => GuestSubversionDownloadStrategy
